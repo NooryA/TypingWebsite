@@ -1,0 +1,233 @@
+/*########### DEFAULT STUFF ##############*/
+
+nav,header,footer{
+display:block;
+}
+
+
+body{
+margin:0;
+line-height: 1;
+background:linear-gradient(to right, #F0C27B,#4B1248);
+
+
+}
+
+
+nav{
+width: 100%;
+margin:0;
+
+
+
+}
+
+/*###########  CUSTOMIZING THE HEADER ##############*/
+
+.container{
+width:100%;
+padding-top: 10%;
+padding-bottom: 4%;
+margin:auto;
+
+
+
+}
+
+#top-section{
+    background:linear-gradient(to right,#0f0c29 ,#302b63,#24243e);
+    border-bottom:  whitesmoke solid;
+    border-width: 5px;
+}
+
+
+
+
+
+
+/*########### NAVIGATION FOR WEBSITE ##############*/
+nav ul{
+
+background:linear-gradient(to right,#0f0c29 ,#302b63,#24243e);
+overflow: hidden;
+margin:0;
+padding:0;
+font-size: 15px;
+border-radius: 5px;
+
+
+
+}
+
+ul.topNAV li{
+list-style:none;
+float: left;
+}
+
+ul.topNAV li.topNAV-right{
+
+    float:right;
+
+}
+
+ul.topNAV li a{
+display: block; /*each block of the list with "a" is the display */ 
+text-decoration: none;
+min-height: 16px;
+font-size: 20px;
+padding: 10px;
+color:white;
+
+
+
+}
+
+ul.topNAV li a:hover{
+
+background: black;
+color:gold;
+
+}
+
+ul.topNAV li.dropDownIcon {
+    display:none;
+    
+
+}
+
+.typingInput{
+
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.typingHeader{
+
+    text-align: center;
+
+}
+
+#typingHead{
+    text-align: center;
+}
+
+.resetButton{
+
+    margin-left:600px;
+}
+
+.hideAndShow{
+display:block;
+text-align: center;
+font-size: 20px;
+margin: auto;
+
+}
+
+.hiddenButton button {
+    display:none;
+    position:absolute;
+    left:45%;
+    top:110%;
+   
+}
+
+
+
+.hovering{
+background: cornsilk;
+text-shadow: crimson;
+
+}
+
+.allText{
+    
+overflow: hidden;
+background: black;
+height:100px;
+color: white;
+font-size: 50px;
+
+
+
+}
+
+.allText span{
+    margin:auto;
+    color: white;
+    font-size: 50px;
+    
+
+}
+
+.highlight {
+background:gray;
+
+}
+
+.highlightGreen{
+
+    background-color: limegreen;
+    font-size: 20px;
+}
+
+
+.highlightRed{
+
+    background-color: #bf0212;
+}
+
+#paragraph {
+color: aqua;
+margin-left: 0;
+}
+
+.roughWords{
+display:none;
+
+}
+
+
+
+/*###########  NAVIGATION FOR MOBILE ##############*/
+
+@media screen and (max-width:680px){
+ul.topNAV li:not(:nth-child(1)){
+display:none;
+
+}
+
+ul.topNAV li.dropDownIcon{
+    display:block;
+    float:right;
+}
+
+ul.topNAV.responsive {
+position:relative;
+
+
+}
+
+ul.topNAV.responsive li.dropDownIcon{
+    position:absolute;
+    top: 0;
+    right: 0;
+    
+    }
+
+ul.topNAV.responsive li{
+    display:inline;
+    float:none;
+}
+
+ul.topNAV.responsive li a{
+display:block;
+text-align: left;
+
+}
+
+
+}
